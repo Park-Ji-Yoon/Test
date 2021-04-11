@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 
 namespace Test.Activation
 {
+    // Hello 
     // For more information on understanding and extending activation flow see
     // https://github.com/Microsoft/WindowsTemplateStudio/blob/release/docs/UWP/activation.md
     internal abstract class ActivationHandler
