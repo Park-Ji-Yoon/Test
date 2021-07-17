@@ -16,7 +16,6 @@ namespace Test.Activation
     internal abstract class ActivationHandler<T> : ActivationHandler
         where T : class
     {
-        // Override this method to add the activation logic in your activation handler
         protected abstract Task HandleInternalAsync(T args);
 
         public override async Task HandleAsync(object args)
