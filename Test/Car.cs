@@ -8,5 +8,6 @@ namespace Test
 {
     class Car
     {
+	private int price;
     }
 }
